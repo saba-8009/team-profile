@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #004466;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .team-section {
+    padding: 2rem;
+  }
+  
+  .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .team-card {
+    background: white;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profile-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #004466;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+  }
+  
+  .profile-button:hover {
+    background-color: #006699;
+  }
+  
